@@ -747,6 +747,9 @@ ceph::radosgw::radosgw_cert_file: /etc/ssl/certs/jiocloud.com.crt
 ceph::radosgw::radosgw_key_file: /etc/ssl/keys/jiocloud.com.key
 ceph::radosgw::radosgw_ca_file: /etc/ssl/certs/gd_bundle-g2-g1.crt
 
+# Override default val in config_opts for Multipart Upload to 1MB
+ceph::radosgw::multipart_min_part_size: 1048576
+
 ceph::radosgw::listen_ssl: true
 
 rjil::ceph::radosgw::ssl: true

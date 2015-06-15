@@ -47,7 +47,8 @@ class rjil::ceph (
   $public_network         = undef,
   $public_if              = eth0,
   $osd_journal_type       = 'filesystem',
-  $pool_default_size      = 3
+  $pool_default_size      = 3,
+  $rgw_multipart_min_part_size = 1048576
 ) {
 
   anchor {'rjil::ceph::start':
@@ -104,6 +105,7 @@ class rjil::ceph (
     public_network   => $public_network_orig,
     osd_journal_type => $osd_journal_type,
     pool_default_size=> $pool_default_size,
+    rgw_multipart_min_part_size=> $rgw_multipart_min_part_size,
     require          => File['/etc/ceph'],
   }
 }

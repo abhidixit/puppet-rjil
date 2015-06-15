@@ -33,7 +33,6 @@ describe 'rjil::ceph' do
         'cluster_network'     => '10.2.0.0/24',
         'public_network'      => '10.1.0.0/24',
         'osd_journal_type'    => 'filesystem',
-        'rgw_multipart_min_part_size' => '1048576',
         'require'             => 'File[/etc/ceph]',
       })
     end

@@ -86,8 +86,8 @@ mod 'puppetlabs/concat',
   :ref => '1.1.1'
 
 mod 'enovance/ceph',
-  :git => "#{base_url}/jiocloud/puppet-ceph",
-  :ref => 'svn_to_git_2'
+  :git => "#{base_url}/abhidixit/puppet-ceph",
+  :ref => 'wip-multipart-config-minpartsize'
 
 mod 'stackforge/glance',
   :git => "#{base_url}/stackforge/puppet-glance",

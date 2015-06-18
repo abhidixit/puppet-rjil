@@ -65,7 +65,7 @@ fixtures:
       ref: 1.2.0
     ceph:
       repo: https://github.com/abhidixit/puppet-ceph
-      ref: 'origin/wip-multipart-config-minpartsize'
+      ref: 'origin/svn_to_git_2'
     apt:
       repo: https://github.com/puppetlabs/puppetlabs-apt
       ref: 1.8.0

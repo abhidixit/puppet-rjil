@@ -64,7 +64,7 @@ fixtures:
       repo: https://github.com/puppetlabs/puppetlabs-apache
       ref: 1.2.0
     ceph:
-      repo: https://github.com/abhidixit/puppet-ceph
+      repo: https://github.com/jiocloud/puppet-ceph
       ref: 'origin/svn_to_git_2'
     apt:
       repo: https://github.com/puppetlabs/puppetlabs-apt
